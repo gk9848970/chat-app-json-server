@@ -1,0 +1,15 @@
+{
+  "name": "typeface-chat-server",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "server": "json-server --watch db.json --port 3001"
+  },
+  "type": "module"
+}

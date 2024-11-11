@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "avatarUrl": "https://robohash.org/Alice"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "avatarUrl": "https://robohash.org/Bob"
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "avatarUrl": "https://robohash.org/Charlie"
+    },
+    {
+      "id": "4",
+      "name": "Diana",
+      "avatarUrl": "https://robohash.org/Diana"
+    }
+  ],
+  "chats": [
+    { "id": "1", "type": "direct", "name": null, "memberIds": ["1", "2"] },
+    { "id": "2", "type": "direct", "name": null, "memberIds": ["1", "3"] },
+    { "id": "3", "type": "direct", "name": null, "memberIds": ["3", "2"] }
+  ],
+  "messages": [
+    {
+      "id": "101",
+      "chatId": "1",
+      "senderId": "1",
+      "content": "Hey Bob! How's it going?",
+      "timestamp": 1731157800000
+    },
+    {
+      "id": "102",
+      "chatId": "1",
+      "senderId": "2",
+      "content": "Hi Alice! All good, thanks!",
+      "timestamp": 1731157860000
+    },
+    {
+      "id": "103",
+      "chatId": "2",
+      "senderId": "1",
+      "content": "Hey Charlie! Are we still on for the meeting?",
+      "timestamp": 1731157920000
+    },
+    {
+      "id": "104",
+      "chatId": "2",
+      "senderId": "3",
+      "content": "Yes, absolutely! Looking forward to it.",
+      "timestamp": 1731157980000
+    },
+    {
+      "id": "105",
+      "chatId": "3",
+      "senderId": "4",
+      "content": "Hello everyone!",
+      "timestamp": 1731158040000
+    },
+    {
+      "id": "106",
+      "chatId": "3",
+      "senderId": "1",
+      "content": "Hi Diana! How’s everyone doing?",
+      "timestamp": 1731158100000
+    },
+    {
+      "id": "107",
+      "chatId": "2",
+      "senderId": "1",
+      "content": "Hey Charlie! Are we still on for the meetinggggggg?",
+      "timestamp": 1731158400000
+    },
+    {
+      "id": "108",
+      "chatId": "1",
+      "senderId": "2",
+      "content": "I'm doing well, thank you!",
+      "timestamp": 1731158460000
+    },
+    {
+      "id": "109",
+      "chatId": "2",
+      "senderId": "3",
+      "content": "Great! Let’s finalize our agenda.",
+      "timestamp": 1731158520000
+    },
+    {
+      "id": "110",
+      "chatId": "1",
+      "senderId": "1",
+      "content": "Perfect! See you soon.",
+      "timestamp": 1731158580000
+    }
+  ]
+}
